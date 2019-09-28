@@ -7,7 +7,8 @@ nopCommerce is the best open-source e-commerce shopping cart. nopCommerce is ava
 nopCommerce is a fully customizable shopping cart. It's stable and highly usable. nopCommerce is an open source ecommerce solution that is **ASP.NET Core** based with a MS SQL 2008 (or higher) backend database. Our easy-to-use shopping cart solution is uniquely suited for merchants that have outgrown existing systems, and may be hosted with your current web host or our hosting partners. It has everything you need to get started in selling physical and digital goods over the internet.
 
 ![nopCommerce demo](https://www.nopcommerce.com/images/features/responsive_devices_codeplex.jpg)
-[nopCommerce site] (https://www.nopcommerce.com/)
+[nopCommerce site](https://www.nopcommerce.com/)
+[nopCommerce GitHub](https://github.com/nopSolutions/nopCommerce)
 
 
 ## Maintainers
