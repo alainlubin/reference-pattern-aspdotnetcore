@@ -36,6 +36,7 @@ You will need access to a Windows workstation to develop the NopCommerce applica
 Once you have the application package available from the Habitat depo under your origin you are ready to demo.
 
 ***Note do not destroy your cloud Windows workstation if you are using one, it will be needed for the demo***
+***Note this windows workstation will take some time create after the Terraform Apply has run ***
 
 - Clone this repo to a working directory on your development workstation (The machine you will run Terraform from).
 - cd to  `nopcommerce/terraform/aws/`
