@@ -1,3 +1,8 @@
+## Requirements
+- [Terraform](https://terraform.io)
+- [AWS](https://aws.amazon.com/)
+
+
 # Reference Architecture  - ASP.NET Core 
 This repo provides reference architecture for deploying ASP.NET Core applications using [Habitat](https://habitat.sh) and [Terraform](https://terraform.io). 
 
@@ -63,7 +68,4 @@ On your Windows workstation make a change to the following file in your editor o
  - Your website should now show with a new background colour.
 
 
-## Requirements
-- [Terraform](https://terraform.io)
-- [AWS](https://aws.amazon.com/)
 
