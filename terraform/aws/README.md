@@ -36,7 +36,7 @@ You will need access to a Windows workstation to develop the NopCommerce applica
 - Run `Habitat Setup` and ensure you use your own origin and its corresponing personal access token.
 - Enter a Habitat Studio `hab studio enter` and then build the application `build`.
 - Upload your newly built package to the habitat depo `hab pkg upload <path to your .hart file>` 
-- Promote this pkg to stable.
+- Promote this pkg to stable. ***Note using the .yml file will automatically promote the package to stable using Azure pipelines***
 
 Once you have the application package available from the Habitat depo under your origin you are ready to demo.
 
@@ -62,10 +62,10 @@ On your Windows workstation make a change to the following file in your editor o
  - Enter a Habitat Studio `hab studio enter` and then build the application `build`.
  - Upload your newly built package to the habitat depo `hab pkg upload <path to your .hart file>`.
  - RDP to either Windows app servers and show the service log by running `Get-Content C:\hab\svc\windows-service\LOGS\Habitat.log -Wait`.
- - Promote your new package to stable in the Habitat depo.
+ - Promote your new package to stable in the Habitat depo.***Note using the .yml file will automatically promote the package to stable using Azure pipelines***
  - Wait for the new service to be loaded on the Windows app server.
  - ***hard refresh*** your website URL (loadbalancer URL) Ctrl and click the Reload button (Windows) or Hold ⇧ Shift and click the Reload button (Mac).
- - Your website should now show with a new background colour.
+ - Your website should now show with a new background color.
 
 
 
