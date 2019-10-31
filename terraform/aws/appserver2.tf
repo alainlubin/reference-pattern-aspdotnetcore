@@ -30,6 +30,7 @@ resource "aws_instance" "appserver2" {
     net stop winrm
     sc.exe config winrm start=auto
     net start winrm
+    choco install googlechrome -y
     </powershell>
     EOF
 
